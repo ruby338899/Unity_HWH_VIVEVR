@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - GameManager
+    - ThreePoint
     SteamVR.dll:
     - Valve.VR.InteractionSystem.BodyCollider
     - Valve.VR.InteractionSystem.ControllerButtonHints
@@ -103,91 +104,93 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11312}
+      Script: {instanceID: 11198}
     - Class: 114
-      Script: {instanceID: 11328}
+      Script: {instanceID: 11214}
     - Class: 114
-      Script: {instanceID: 11356}
+      Script: {instanceID: 11230}
     - Class: 114
-      Script: {instanceID: 11408}
+      Script: {instanceID: 11244}
     - Class: 114
-      Script: {instanceID: 11462}
+      Script: {instanceID: 11296}
     - Class: 114
-      Script: {instanceID: 11476}
+      Script: {instanceID: 11350}
     - Class: 114
-      Script: {instanceID: 11516}
+      Script: {instanceID: 11364}
+    - Class: 114
+      Script: {instanceID: 11404}
+    - Class: 114
+      Script: {instanceID: 11454}
+    - Class: 114
+      Script: {instanceID: 11510}
+    - Class: 114
+      Script: {instanceID: 11518}
+    - Class: 114
+      Script: {instanceID: 11554}
     - Class: 114
       Script: {instanceID: 11566}
     - Class: 114
-      Script: {instanceID: 11622}
+      Script: {instanceID: 11620}
     - Class: 114
-      Script: {instanceID: 11630}
+      Script: {instanceID: 11808}
     - Class: 114
-      Script: {instanceID: 11666}
+      Script: {instanceID: 11860}
     - Class: 114
-      Script: {instanceID: 11678}
+      Script: {instanceID: 11910}
     - Class: 114
-      Script: {instanceID: 11732}
+      Script: {instanceID: 11914}
     - Class: 114
-      Script: {instanceID: 11920}
+      Script: {instanceID: 12084}
     - Class: 114
-      Script: {instanceID: 11972}
+      Script: {instanceID: 12168}
     - Class: 114
-      Script: {instanceID: 12022}
+      Script: {instanceID: 12188}
     - Class: 114
-      Script: {instanceID: 12026}
+      Script: {instanceID: 12214}
     - Class: 114
-      Script: {instanceID: 12192}
+      Script: {instanceID: 12318}
     - Class: 114
-      Script: {instanceID: 12276}
+      Script: {instanceID: 12352}
     - Class: 114
-      Script: {instanceID: 12294}
+      Script: {instanceID: 12468}
     - Class: 114
-      Script: {instanceID: 12320}
+      Script: {instanceID: 12520}
     - Class: 114
-      Script: {instanceID: 12424}
+      Script: {instanceID: 12580}
     - Class: 114
-      Script: {instanceID: 12458}
+      Script: {instanceID: 12718}
     - Class: 114
-      Script: {instanceID: 12572}
+      Script: {instanceID: 12720}
     - Class: 114
-      Script: {instanceID: 12624}
+      Script: {instanceID: 12742}
     - Class: 114
-      Script: {instanceID: 12684}
+      Script: {instanceID: 12810}
     - Class: 114
-      Script: {instanceID: 12820}
+      Script: {instanceID: 12814}
     - Class: 114
-      Script: {instanceID: 12822}
+      Script: {instanceID: 12832}
     - Class: 114
-      Script: {instanceID: 12844}
+      Script: {instanceID: 12854}
     - Class: 114
-      Script: {instanceID: 12912}
+      Script: {instanceID: 12892}
     - Class: 114
-      Script: {instanceID: 12916}
+      Script: {instanceID: 13038}
     - Class: 114
-      Script: {instanceID: 12934}
+      Script: {instanceID: 13054}
     - Class: 114
-      Script: {instanceID: 12956}
+      Script: {instanceID: 13152}
     - Class: 114
-      Script: {instanceID: 12994}
+      Script: {instanceID: 13202}
     - Class: 114
-      Script: {instanceID: 13140}
+      Script: {instanceID: 13402}
     - Class: 114
-      Script: {instanceID: 13156}
+      Script: {instanceID: 13420}
     - Class: 114
-      Script: {instanceID: 13254}
+      Script: {instanceID: 13486}
     - Class: 114
-      Script: {instanceID: 13304}
+      Script: {instanceID: 13510}
     - Class: 114
-      Script: {instanceID: 13502}
-    - Class: 114
-      Script: {instanceID: 13520}
-    - Class: 114
-      Script: {instanceID: 13586}
-    - Class: 114
-      Script: {instanceID: 13610}
-    - Class: 114
-      Script: {instanceID: 20382}
+      Script: {instanceID: 13562}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -249,6 +252,12 @@ ScriptsOnlyBuild:
     assemblyName: SteamVR.dll
     namespaceName: Valve.VR.InteractionSystem
     className: DestroyOnParticleSystemDeath
+  - hash:
+      serializedVersion: 2
+      Hash: f59c6d7d0a0a36421b4fc406e380b9e8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ThreePoint
   - hash:
       serializedVersion: 2
       Hash: 3c08375166df118bd1801438fc36b92f
@@ -1415,17 +1424,17 @@ ScriptsOnlyBuild:
     className: HoverButton
   - hash:
       serializedVersion: 2
+      Hash: f816c438b217a322d711470db541b499
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 279f528386b15dec85f53b49a642ef0d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameManager
   platform: 19
   scenePathNames:
   - "Assets/\u6295\u7C43\u6A5F.unity"
-  playerPath: C:/Users/User/Desktop/Unity_HWH_VIVEVR/rrrrr/rubyrrrrrrrr.exe
+  playerPath: C:/Users/User/Desktop/Unity_HWH_VIVEVR/VR play/rubyrrrrrrrr.exe
