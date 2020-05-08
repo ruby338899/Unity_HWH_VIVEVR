@@ -65,6 +65,8 @@ public class GameManager : MonoBehaviour
 
     public void Replay()
     {
+        //刪除 (玩家.遊戲物件)
+        Destroy(FindObjectOfType<Player>().gameObject);
         //場景管理器.重新載入場景("場景名稱需完全一樣")
         SceneManager.LoadScene("投籃機");
     }
